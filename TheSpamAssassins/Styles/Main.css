@@ -1,0 +1,169 @@
+﻿/* Author: Foster Hangdaan */
+/* Contains styles common to all pages. */
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Montserrat:ital,wght@0,400;0,500;1,500&family=Sen:wght@700;800&display=swap');
+/*
+    font-family: 'Sen', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Dancing Script', cursive;
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+}
+
+/*<------------------------------------------------ TEXTS ------------------------------------------------>*/
+h1 {
+    font-family: 'Sen', sans-serif;
+    font-size: 50pt;
+}
+
+.main-text {
+    font-family: 'Sen', sans-serif;
+}
+
+.content-text {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.quote_large,
+.quote_medium,
+.quote_small
+{
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+}
+
+.quote_large {
+    font-size: 20pt;
+}
+
+.cursive {
+    font-family: 'Dancing Script', cursive;
+}
+
+.emphasize_text {
+    color: orange;
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-shadow: -1px 0 #f25e1b, 0 1px #f25e1b, 1px 0 #f25e1b, 0 -1px #f25e1b;
+}
+
+.underline_text {
+    text-decoration: underline;
+}
+
+.error_message {
+    font-family: 'Sen', sans-serif;
+    font-size: 2em;
+    color: darkorange;
+    margin: 65px 0;
+}
+
+/*<---------------------------------------------- TEXTBOXES ---------------------------------------------->*/
+.textbox_large {
+    width: 250px;
+    line-height: 35px;
+    font-size: 12pt;
+    padding: 5px;
+    border-style: ridge;
+    border-radius: 3px;
+    color: white;
+}
+
+/*<---------------------------------------------- BUTTONS ---------------------------------------------->*/
+.button_emphasis {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    background: #ed3330;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+}
+
+.button_emphasis:hover {
+    background: #434343;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+}
+
+/*<------------------------------------------- TABLE/GRIDVIEW ------------------------------------------->*/
+.grid {
+    background-color: #fff;
+    margin: 5px 0 10px 0;
+    border: none;
+    border-collapse: collapse;
+    color: #474747;
+    width: 900px;
+}
+
+.grid th,
+.grid td {
+    text-align: center;
+    border: none;
+}
+
+.grid td {
+      padding: 10px;
+}
+
+.grid th {
+      padding : 20px 20px;
+      color: #fff;
+      background-color: lightblue;
+      font-size: 1.2em; /* 0.9em */
+}
+
+.grid .alt {
+    background-color: #edeff4; /* #fcfcfc */
+}
+
+.grid input { /* grid button style */
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.grid input:hover {
+    border-radius: 20px;
+    transition: all 0.2s linear 0s;
+}
+
+/*<---------------------------------------------- MISC. ---------------------------------------------->*/
+.transparent_bg_full {
+    background-color: rgba(0,0,0,0);
+}
+
+.transparent_bg_strong {
+    background-color: rgba(0,0,0,0.2);
+}
+
+.transparent_bg_medium {
+    background-color: rgba(0,0,0,0.5);
+}
+
+.transparent_bg_weak {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.relative {
+    position: relative;
+}

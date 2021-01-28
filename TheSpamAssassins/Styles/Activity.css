@@ -1,0 +1,17 @@
+﻿/* Author: Foster Hangdaan */
+/* Contains styles specific to CamperActivities.aspx page. */
+
+#camper_activities_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 110px 20px;
+}
+
+.grid input {
+    background-color: #c82a24;
+}
+
+.grid input:hover {
+    background-color: #f1352d;
+}

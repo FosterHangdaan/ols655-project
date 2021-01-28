@@ -1,0 +1,27 @@
+﻿/* Author: Foster Hangdaan */
+/* Contains styles specific to RegisterActivity.aspx page. */
+
+#register_activity_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.select_campday_container {
+    margin-bottom: 40px;
+}
+
+.select_campday_text {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #5d6063;
+}
+
+.grid input:hover {
+    background-color: #58cb5d;
+}

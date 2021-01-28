@@ -1,0 +1,5 @@
+C:\Users\foste\OneDrive - Seneca College of Applied Arts & Technology\2020_winter\ols655\Visual Studio 2012\Projects\TheSpamAssassins\TheSpamAssassins\obj\Debug\TheSpamAssassins.csprojResolveAssemblyReference.cache
+C:\Users\foste\OneDrive - Seneca College of Applied Arts & Technology\2020_winter\ols655\Visual Studio 2012\Projects\TheSpamAssassins\TheSpamAssassins\bin\TheSpamAssassins.dll
+C:\Users\foste\OneDrive - Seneca College of Applied Arts & Technology\2020_winter\ols655\Visual Studio 2012\Projects\TheSpamAssassins\TheSpamAssassins\bin\TheSpamAssassins.pdb
+C:\Users\foste\OneDrive - Seneca College of Applied Arts & Technology\2020_winter\ols655\Visual Studio 2012\Projects\TheSpamAssassins\TheSpamAssassins\obj\Debug\TheSpamAssassins.dll
+C:\Users\foste\OneDrive - Seneca College of Applied Arts & Technology\2020_winter\ols655\Visual Studio 2012\Projects\TheSpamAssassins\TheSpamAssassins\obj\Debug\TheSpamAssassins.pdb

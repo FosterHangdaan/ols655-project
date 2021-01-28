@@ -1,0 +1,100 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Camp.master.cs" Inherits="TheSpamAssassins.Camp" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="./Styles/Main.css" rel="stylesheet" type="text/css" />
+    <link href="./Styles/Master.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <header>
+        <img class="cloud cloud1" src="/images/cloud-lightblue.svg" />
+        <img class="cloud cloud2" src="/images/cloud-lightblue.svg" />
+        <img class="cloud cloud3" src="/images/cloud-grey.svg" />
+        <img class="cloud cloud4" src="/images/cloud-grey.svg" />
+        <img class="cloud cloud5" src="/images/cloud-lightblue.svg" />
+        <img class="cloud cloud6" src="/images/cloud-lightblue.svg" />
+        <img class="cloud cloud7" src="/images/cloud-lightblue.svg" />
+        <img class="cloud cloud8" src="/images/cloud-lightblue.svg" />
+        <img class="cloud cloud9" src="/images/cloud-grey.svg" />
+        <img class="cloud cloud10" src="/images/cloud-grey.svg" />
+        <img class="cloud cloud11" src="/images/cloud-grey.svg" />
+        <img class="cloud cloud12" src="/images/cloud-grey.svg" />
+        <div class="header-item"><h1><span class="cursive">Welcome</span> <asp:Label ID="camperNameLbl" runat="server">!</asp:Label></h1></div>
+    </header>
+    <div id="menu-bar">
+        <nav class="menu-item main-text">
+            <div class="nav-item home"><a href="CamperActivities.aspx">Home</a></div>
+            <div class="nav-item register"><a href="RegisterActivity.aspx">Register</a></div>
+            <div class="nav-item logout"><asp:linkbutton ID="logout" runat="server" OnClick="logoutBtn_Click">LOGOUT</asp:linkbutton></div>
+        </nav>
+        <div class="menu-item activities_count content-text">
+            <h3><asp:Label ID="numberOfActivitiesLbL" runat="server"></asp:Label></h3>
+        </div>
+        <div class="menu-item logo-title">
+            <img src="Images/sun.svg" />
+            <h1>Camp Summer</h1>
+        </div>
+    </div>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">      
+    </asp:ContentPlaceHolder>
+    </form>
+    <footer class="content-text">
+        <div class="footer-item footer-left">
+            <img id="company-logo" src="Images/no-spam-logo.png" />
+            <p>Copyright&copy; TheSpamAssassins</p>
+        </div>
+        <div class="footer-item footer-center">
+            <table>
+                <tr>
+                    <th class="emphasize_text">Team Members</th>
+                </tr>
+                <tr>
+                    <td>Foster Hangdaan</td>
+                </tr>
+                <tr>
+                    <td>Mark Brierley</td>
+                </tr>
+                <tr>
+                    <td>Matthew Percy</td>
+                </tr>
+            </table>
+        </div>
+        <div class="footer-item footer-right">
+            <table>
+                <tr>
+                    <td>Address:</td>
+                    <td class="emphasize_text">1578 Electric Avenue</td>
+                </tr>
+                <tr>
+                    <td>Phone:</td>
+                    <td class="emphasize_text">905-267-2223</td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td class="emphasize_text">support@campsummer.ca</td>
+                </tr>
+            </table>
+        </div>
+    </footer>
+    <script type="text/javascript">
+        window.onscroll = function () { myFunction() };
+
+        var navbar = document.getElementById("menu-bar");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky");
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
+</body>
+</html>

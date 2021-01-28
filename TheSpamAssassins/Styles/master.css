@@ -1,0 +1,388 @@
+﻿/* Author: Foster Hangdaan */
+/* Contains styles specific to the master page */
+
+body {
+    font: #fff;
+    overflow-x: hidden;
+}
+
+/*
+body,
+header,
+footer {
+    background-color: rgba(0, 0, 0, 0);
+}
+*/
+
+header {
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: radial-gradient(circle, #cbe9ee, lightblue);
+}
+
+header h1 {
+    position: relative;
+    font-size: 40pt;
+    color: darkorange;
+    z-index: 1;
+}
+
+.cursive {
+    font-size: 60pt;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.logo-title > h1 {
+    font-size: 14pt;
+}
+
+.logo-title > img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+#menu-bar {
+    width: 100%;
+    min-height: 62px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #95b8c4;
+    color: #fff;
+}
+
+#menu-bar a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #749099;
+    min-height: 62px;
+}
+
+nav a, nav a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a {
+    display: flex;
+    align-items: center;
+    min-height: 62px;
+}
+
+.nav-item {
+    min-width: 33.33%;
+    min-height: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-item:hover {
+    background-color: #7e9ca6;
+}
+
+.home {
+    background-color: #ed3330;
+}
+
+.home:hover {
+    background-color: #ff3734;
+}
+
+.activities_count {
+    width: 70%;
+    text-align: center;
+}
+
+#numberOfActivitiesLbL {
+    height: 45px;
+    line-height: 45px;
+}
+
+nav,
+.logo-title {
+    width: 20%;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 60px;
+}
+
+/* HEADER ANIMATIONS */
+.cloud {
+    position: absolute;
+    left: -50%;
+    z-index: 0;
+}
+
+.cloud1 {
+    width: 100px;
+    height: 100px;
+    animation: move-cloud1 80s linear 0s infinite;
+}
+@keyframes move-cloud1 {
+    from {
+        top: 100px;
+        left: -5%;
+    }
+
+    to {
+        top: 100px;
+        left: 100%;
+    }
+}
+
+.cloud2 {
+    width: 50px;
+    height: 50px;
+    animation: move-cloud2 120s linear 0s infinite;
+}
+@keyframes move-cloud2 {
+    from {
+        top: 70px;
+        left: -5%;
+    }
+
+    to {
+        top: 70px;
+        left: 100%;
+    }
+}
+
+.cloud3 {
+    width: 25px;
+    height: 25px;
+    animation: move-cloud3 240s linear 0s infinite;
+}
+@keyframes move-cloud3 {
+    from {
+        top: 10px;
+        left: -5%;
+    }
+
+    to {
+        top: 10px;
+        left: 100%;
+    }
+}
+
+.cloud4 {
+    width: 75px;
+    height: 75px;
+    animation: move-cloud4 140s linear 3s infinite;
+}
+@keyframes move-cloud4 {
+    from {
+        top: 90px;
+        left: -5%;
+    }
+
+    to {
+        top: 90px;
+        left: 100%;
+    }
+}
+
+.cloud5 {
+    width: 75px;
+    height: 75px;
+    animation: move-cloud5 170s linear 5s infinite;
+}
+@keyframes move-cloud5 {
+    from {
+        top: 20px;
+        left: -5%;
+    }
+
+    to {
+        top: 20px;
+        left: 100%;
+    }
+}
+
+.cloud6 {
+    width: 20px;
+    height: 20px;
+    animation: move-cloud6 200s linear 20s infinite;
+}
+@keyframes move-cloud6 {
+    from {
+        top: 5px;
+        left: -5%;
+    }
+
+    to {
+        top: 5px;
+        left: 100%;
+    }
+}
+
+.cloud7 {
+    width: 70px;
+    height: 70px;
+    animation: move-cloud7 200s linear 120s infinite;
+}
+@keyframes move-cloud7 {
+    from {
+        top: 10px;
+        left: -5%;
+    }
+
+    to {
+        top: 10px;
+        left: 100%;
+    }
+}
+
+.cloud8 {
+    width: 70px;
+    height: 70px;
+    animation: move-cloud8 160s linear 60s infinite;
+}
+@keyframes move-cloud8 {
+    from {
+        top: 90px;
+        left: -5%;
+    }
+
+    to {
+        top: 90px;
+        left: 100%;
+    }
+}
+
+.cloud9 {
+    width: 20px;
+    height: 20px;
+    animation: move-cloud9 240s linear 120s infinite;
+}
+@keyframes move-cloud9 {
+    from {
+        top: 10px;
+        left: -5%;
+    }
+
+    to {
+        top: 10px;
+        left: 100%;
+    }
+}
+
+.cloud10 {
+    width: 70px;
+    height: 70px;
+    animation: move-cloud10 155s linear 90s infinite;
+}
+@keyframes move-cloud10 {
+    from {
+        top: 80px;
+        left: -5%;
+    }
+
+    to {
+        top: 80px;
+        left: 100%;
+    }
+}
+
+.cloud11 {
+    width: 70px;
+    height: 70px;
+    animation: move-cloud11 120s linear 90s infinite;
+}
+@keyframes move-cloud11 {
+    from {
+        top: 70px;
+        left: -5%;
+    }
+
+    to {
+        top: 70px;
+        left: 100%;
+    }
+}
+
+.cloud12 {
+    width: 15px;
+    height: 15px;
+    animation: move-cloud12 240s linear 120s infinite;
+}
+@keyframes move-cloud12 {
+    from {
+        top: 35px;
+        left: -5%;
+    }
+
+    to {
+        top: 35px;
+        left: 100%;
+    }
+}
+
+footer {
+    width: 100%;
+    min-height:250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightblue;
+    color: #fff;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+tr > .emphasize_text {
+    font-size: 14pt
+}
+
+footer table {
+   border-spacing: 10px;
+}
+
+.footer-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+}
+
+#company-logo {
+	width: 200px;
+}
+
+.footer-left,
+.footer-center {
+    flex-direction: column;
+}
+
+.footer-right {
+}
+
+.footer-right td:first-child {
+    padding-right: 2em;
+}
